@@ -1,0 +1,16 @@
+{
+    "data_dir": "../../data/dataset/scitail",
+    "embeddings_file": "../../data/embeddings/glove.840B.300d.txt",
+    "target_dir": "../../data/preprocessed/scitail",
+    "worddict_file": "../../data/preprocessed/scitail/worddict.pkl",
+
+    "lowercase": false,
+    "ignore_punctuation": false,
+    "num_words": null,
+    "stopwords": [],
+    "labeldict": {"0": 0,
+                  "1": 1,
+                  "2": 2},
+    "bos": "_BOS_",
+    "eos": "_EOS_"
+}
