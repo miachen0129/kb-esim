@@ -1,0 +1,6 @@
+subject	predicate	object
+cranium	IsA	bone
+brain	UsedFor	thinking
+brain	PartOf	your_body
+brain	PartOf	a_human_body
+brain	MadeOf	neurons
