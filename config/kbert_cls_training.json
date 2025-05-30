@@ -1,0 +1,29 @@
+{
+    "pretrained_model_path": "./models/google_model.bin",
+    "output_model_path": "./models/classifier_model.bin",
+    "vocab_path": "./models/google_vocab",
+    "train_path": "./datasets/train.tsv",
+    "test_path" : "./datasets/test.tsv",
+    "dev_path"  : "./datasets/dev.tsv",
+    "config_path" : "./datasets/google_config.json",
+
+    "batch_size" : 32,
+    "seg_length" : 256,
+    "encoder" : "bert",
+    "pooling" : "first",
+
+    "subword_type": "none",
+    "sub_vocab_path": "models/sub_vocab.txt",
+    "subencoder": "avg",
+    "sub_layers_num": 2,
+
+    "learning_rate": 2e-5,
+    "warmup": 0.1,
+    "dropout": 0.5,
+    "epoches_num": 64,
+    "report_steps": 100,
+    "seed": 7
+
+
+
+}

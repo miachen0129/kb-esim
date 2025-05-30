@@ -1,0 +1,17 @@
+{
+    "train_data": "../../datasets/preprocessed/scifact0424/train_data.pkl",
+    "valid_data": "../../datasets/preprocessed/scifact0424/dev_data.pkl",
+    "embeddings": "../../datasets/preprocessed/scifact0424/embeddings.pkl",
+
+    "target_dir": "../../datasets/checkpoints/scifact0424",
+    
+    "hidden_size": 300,
+    "dropout": 0.5,
+    "num_classes": 3,
+
+    "epochs": 64,
+    "batch_size": 32,
+    "lr": 0.0004,
+    "patience": 10,
+    "max_gradient_norm": 10.0
+}

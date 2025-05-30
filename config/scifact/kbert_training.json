@@ -1,0 +1,21 @@
+{
+    "pretrained_model_path": "../../models/google_model.bin",
+    "output_model_path": "../../models/scifact/kbert_for_rte.bin",
+    "vocab_path": "../../models/google_vocab",
+    "train_path": "../../datasets/meta/sciFact/claims_train.jsonl",
+    "dev_path"  : "../../datasets/meta/sciFact/claims_dev.jsonl",
+    "corpus_path" : "../../datasets/meta/sciFact/corpus.jsonl",
+    "config_path" : "../../datasets/google_config.json",
+
+    "batch_size" : 32,
+    "seg_length" : 256,
+    "learning_rate": 2e-5,
+    "warmup": 0.1,
+    "dropout": 0.5,
+    "epoches_num": 64,
+    "report_steps": 100,
+    "seed": 7,
+    "patience": 5
+
+}
+

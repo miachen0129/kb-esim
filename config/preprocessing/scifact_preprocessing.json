@@ -1,0 +1,17 @@
+{
+    "data_dir": "../../datasets/reconstructed/scifact",
+    "embeddings_file": "../../data/embeddings/glove.840B.300d.txt",
+    "target_dir": "../../data/preprocessed/scifact",
+    "worddict_file": "../../data/preprocessed/scifact/worddict.pkl",
+    "if_extend":false,
+
+    "lowercase": false,
+    "ignore_punctuation": false,
+    "num_words": null,
+    "stopwords": [],
+    "labeldict": {"entailment": 0,
+                  "neutral": 1,
+                  "contradiction": 2},
+    "bos": "_BOS_",
+    "eos": "_EOS_"
+}
