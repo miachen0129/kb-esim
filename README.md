@@ -3,7 +3,6 @@
 This repository contains the code for my graduate thesis:  
 **_Research on False Claim Identification Based on Improved Textual Entailment Recognition Model_**
 
----
 
 ## Project Overview
 
@@ -21,7 +20,6 @@ The proposed model consists of two main components:
   A classical architecture for textual entailment recognition.  
   → *Reference: Chen, Q. et al. "Enhanced LSTM for natural language inference." arXiv:1609.06038 (2016).*
 
----
 
 ## Research Contributions
 
